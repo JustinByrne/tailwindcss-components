@@ -1,3 +1,3 @@
 # TailwindCSS Components
 
-WIP
+These components utilise the typography and the forms plugins.
