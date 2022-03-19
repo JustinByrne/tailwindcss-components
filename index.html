@@ -8,15 +8,45 @@
     <link href="./tailwind.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <h1>Components</h1>
-    <ul>
-      <li>
-        <a href="./components/login.html">Login Page</a>
-      </li>
-      <li>
-        <a href="./components/button.html">Buttons</a>
-      </li>
-    </ul>
+  <body class="bg-slate-50">
+    <div class="container mx-auto flex flex-col">
+      <h1
+        class="py-4 px-8 text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:px-0 sm:text-3xl"
+      >
+        Tailwind CSS Components
+      </h1>
+      <div
+        class="grid gap-8 px-8 pt-4 pb-8 sm:grid-cols-2 sm:px-0 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <a
+          class="relative overflow-hidden rounded-lg border shadow"
+          href="./components/login.html"
+        >
+          <img
+            src="./screenshots/login.png"
+            class="aspect-[4/3] w-full object-cover"
+          />
+          <div
+            class="absolute bottom-0 w-full bg-white px-3 py-4 text-zinc-700"
+          >
+            Login Page
+          </div>
+        </a>
+        <a
+          class="relative overflow-hidden rounded-lg border shadow"
+          href="./components/button.html"
+        >
+          <img
+            src="./screenshots/button.png"
+            class="aspect-[4/3] w-full object-cover"
+          />
+          <div
+            class="absolute bottom-0 w-full bg-white px-3 py-4 text-zinc-700"
+          >
+            Buttons
+          </div>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
