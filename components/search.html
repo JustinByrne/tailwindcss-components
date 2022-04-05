@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>search</title>
+    <link href="../tailwind.css" rel="stylesheet" />
+  </head>
+  <body
+    class="grid h-screen w-screen place-items-center gap-6 bg-gray-100 py-6"
+  >
+    <div
+      class="relative overflow-hidden rounded-md bg-white px-1 py-0.5 shadow-md ring-sky-500 focus-within:ring"
+    >
+      <input
+        type="search"
+        placeholder="search..."
+        class="peer z-0 border-0 px-3 placeholder:text-zinc-400 focus:outline-none focus:ring-0"
+      />
+      <svg
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+        class="pointer-events-none absolute right-3 top-1/2 z-10 hidden -translate-y-1/2 text-zinc-400 peer-placeholder-shown:block"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+          d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"
+        ></path>
+      </svg>
+    </div>
+  </body>
+</html>
